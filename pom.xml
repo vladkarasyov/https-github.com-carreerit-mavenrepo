@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.jdevs</groupId>
   <artifactId>studentapp</artifactId>
-  <version>2.1.2-SNAPSHOT</version>
+  <version>2.5-SNAPSHOT</version>
   <packaging>war</packaging>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -29,12 +29,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://172.31.2.113:8081/repository/maven-releases/</url>
+            <url>http://172.20.140.133:8081/repository/nexus-rel/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://172.31.2.113:8081/repository/maven-snapshots/</url>
+            <url>http://172.20.140.133:8081/repository/nexus-snap/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
